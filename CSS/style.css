@@ -1,0 +1,191 @@
+/*Overall style*/
+
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {height: 100%}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-size: 1em;
+	line-height: 135%;
+}
+
+a {
+	text-decoration: none;
+	color: #939393;
+}
+
+a:hover {
+	color: #939393;
+}
+
+a, a:hover {
+	-webkit-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	transition: all.6s ease;
+}
+
+.clear {
+	clear: both;
+}
+
+/*styles for hats*/
+
+header {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-bottom: 2px solid silver; 
+}
+
+header #logo {
+	width: 65%;
+	float: left;
+	color: #939393;
+	font-size: 2em;
+	font-family: Times New Roman, sans-serif;
+}
+
+header #authreg {
+	width: 32%;
+	float: left;
+}
+
+header #authreg div {
+	float: left;
+	margin-right: 1%;
+	padding: 7px;
+	background-color: #c6c6c6;
+	border-radius: 10px;
+	color: #ffffff;
+}
+
+header #authreg div:hover {
+	background-color: #e6e6e6;
+	color: #ffffff;
+}
+
+/* area filling */
+content {
+	width: 98%;
+	float: left;
+	padding: 1%;
+	background-color: #fafafa;
+	border-bottom: 2px solid silver;
+	margin-bottom: 10px; 
+	
+}
+
+content #leftpart {
+	width: 22%;
+	float: left;
+} 
+
+content #center {
+	width: 50%;
+	float: left;
+	padding: 3%;
+	font-size: 1em;
+	color: #939393 ;
+	font-family: Times New Roman, sans-serif;
+}	
+
+content #centerg {
+	width: 46%;
+	float: left;
+	padding: 5%;
+	font-size: 1em;
+	color: #939393 ;
+	font-family: Times New Roman, sans-serif;
+}	
+
+content #centern {
+	width: 46%;
+	float: left;
+	padding: 5%;
+	font-size: 1em;
+	color: #939393 ;
+	font-family: Times New Roman, sans-serif;
+}
+	
+
+content #rightpart {
+	width: 22%;
+	float: left;
+}
+
+input {
+	width: 75%;
+	padding: 1%;
+
+	background-color: #fcfcfc;
+	font-family: Times New Roman, sans-serif;
+}
+
+#user {
+    width: 30px; /* Ширина поля в пикселах */
+ }
+
+  table {
+    width: 98%; /* Ширина таблицы */
+    background: #939393; /* Цвет фона таблицы */
+    color: #939393; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+   }
+   td, th {
+    background: white; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+   }
+  #style_1 {
+  		width: 30%;
+  }
+  h1 {
+  	line-height: 100%;
+  }
+/* настройка областей демо*/
+  content #centerm {
+	width: 50%;
+	float: left;
+	padding-left: 25%;
+	padding-right: 25%;
+	font-size: 1em;
+	color: #939393 ;
+	font-family: Times New Roman, sans-serif;
+}	
+
+content #result { 
+	width: 46%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 1em;
+	color: #939393 ;
+	font-family: Times New Roman, sans-serif;
+}
+content #graf { 
+	width: 46%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 1em;
+	color: #939393 ;
+	font-family: Times New Roman, sans-serif;
+}
+
+
+
+
+
+
